@@ -4,7 +4,7 @@ Outputs:
 
 ![Granger Test Output](timeseries.png)
 
-2- Printed Granger Causality results:
+2- Printed Granger Causality results (multiple lines, this is just a portion of the output):
 ![Granger Test Output](granger_output.png)
 
 3- Granger network graph:
