@@ -4,10 +4,10 @@ Outputs:
 
 ![Granger Test Output](timeseries.png)
 
-1- Printed Granger Causality results:
+2- Printed Granger Causality results:
 ![Granger Test Output](granger_output.png)
 
-2- Granger network graph:
+3- Granger network graph:
 ![Granger Test Output](granger_netwrok.png)
 
 4- Correlation network graph and results
