@@ -1,3 +1,20 @@
+Outputs:
+
+1- Timeseries visualisation:
+
+![Granger Test Output](timeseries.png)
+
+1- Printed Granger Causality results:
+![Granger Test Output](granger_output.png)
+
+2- Granger network graph:
+![Granger Test Output](granger_netwrok.png)
+
+4- Correlation network graph and results
+![Granger Test Output](correlation_RC.png)
+
+
+
 ## Granger Causality:
 
 Granger causality is a statistical concept used primarily in time series analysis to determine whether one time series can predict another time series. The basic idea is as follows: If time series X Granger-causes time series Y, then past values of X should contain information that helps predict Y, above and beyond the information contained in past values of Y alone.
