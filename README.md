@@ -23,6 +23,11 @@ In a bivariate context, consider two time series, X and Y. If incorporating lagg
 
 The primary tool for determining Granger causality is the F-test. The null hypothesis for this test is that the coefficients of the lagged values of X are zero (i.e., X does not Granger-cause Y). If the null hypothesis is rejected, it provides evidence in favor of Granger causality.
 
+The differentiation between "Granger-causes" and "causes" is crucial in time series analysis, especially when discussing Granger causality. Here's why:
+
+    Traditional causality in scientific experiments often involves manipulating one variable to observe a change in another variable. For example, if increasing the dose of a drug results in improved health outcomes, we might conclude that the drug "causes" the health improvement.
+    Granger causality doesn't deal with this type of cause-and-effect relationship. Instead, it asks: does knowing the past of one time series (X) help predict another time series (Y) better than just knowing the past of Y itself? If the answer is yes, then X is said to "Granger-cause" Y. It's purely a predictive relationship based on time-lagged information.
+    The term "Granger-causality" is designed to prevent confusion. Saying that X "causes" Y might lead someone to believe there's a direct, mechanistic relationship when, in fact, all that's been identified is a time-lagged predictive relationship.Traditional causality has deep philosophical implications about the nature of cause and effect. Granger causality doesn't engage with these philosophical questions; it's purely a statistical measure.
 
 
 ## Description of the Code:
